@@ -1,6 +1,6 @@
 // Configuração: Substitua "andre-torres" e "nome-do-repo" pelo dono e nome do seu repositório no GitHub.
 const owner = "andre-torres";
-const repo = "maria_release";
+const repo = "maria";
 
 async function fetchReleases() {
     const url = `https://api.github.com/repos/${owner}/${repo}/releases`;
